@@ -1,2 +1,2 @@
 # Rust
-- licens open source
+- licens open source MIT
