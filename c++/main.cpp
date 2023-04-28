@@ -28,6 +28,7 @@ int main(int argc, char const *argv[])
         cout << "4- add houses" << endl;
         cout << "5- add airplanes" << endl;
         cout << "6- exit" << endl;
+        cin>>chosed1;
         switch (chosed1)
         {
         case 1:
@@ -41,11 +42,14 @@ int main(int argc, char const *argv[])
             break;
         case 5:
             break;
+        case 6:
+            cout << "\n\n\t\t\t\t BYE BYE SEE YOU SOON!! \n\n";
+            break;
         default:
-            cout << "Chose another number \n";
+            cout << "\n\n\t\t\tCHOSE ANOTHER NUMBER \n\n";
             break;
         }
-    } while (chosed1 != 3);
+    } while (chosed1 != 6);
         
     return 0;
 }
